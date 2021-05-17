@@ -11,7 +11,7 @@ require('dotenv').config();
     "dialect": "postgres",
     "logging": false,
     "dialectOptions": {
-      ssl: true
+      "ssl": true
    }
   },
   "test": {
