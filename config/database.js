@@ -9,10 +9,7 @@ require('dotenv').config();
     "database": process.env.DB_DATABASE,
     "host": process.env.DB_HOST,
     "dialect": "postgres",
-    "logging": false,
-    "dialectOptions": {
-      "ssl": true
-   }
+    "logging": false
   },
   "test": {
     "username": process.env.DB_USER,
