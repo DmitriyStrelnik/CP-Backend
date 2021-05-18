@@ -27,7 +27,7 @@ module.exports = (sequelize, DataTypes) => {
     type: DataTypes.STRING,
     get() {
       const avatar = this.getDataValue('avatar');
-      const url =`${config.appURL}:${config.appPort}`;
+      const url =`${config.appURL}`;
 
       if(!avatar)
       { 
